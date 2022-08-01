@@ -13,9 +13,8 @@ output:
 require(tigerstats)
 require(tidyverse)
 require(foreign)
-Gss <- read.spss("GSS2018.sav")
-Gss1 <- as.tibble(Gss)
-
+source("GrabData.R")
+```
 
 
 #  Question 1
